@@ -7,7 +7,6 @@ let clickeado = true;
 button.addEventListener("click", () => {
   if (clickeado) {
     button.classList.toggle("bg-slate-700");
-
     popUp.classList.toggle("hidden");
     popUp.classList.add("flex");
     clickeado = true;
